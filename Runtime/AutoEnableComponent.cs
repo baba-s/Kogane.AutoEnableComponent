@@ -3,7 +3,6 @@
 namespace Kogane.Internal
 {
     [DefaultExecutionOrder( -1000 )]
-    [DisallowMultipleComponent]
     internal sealed class AutoEnableComponent : MonoBehaviour
     {
         [SerializeField]                  private MonoBehaviour m_monoBehaviour;
